@@ -1,7 +1,48 @@
 # NCVP-Reg
 NCVP-Reg: Point Cloud Registration via Non-local Feature Fusion and Uncertainty Calibrated Virtual Points.
 
-**Upon acceptance of the paper, we will make the NCVP-Reg code, network weights, and the datasets publicly available.**
+## Setup
+
+```bash
+conda create -n ncvpreg python=3.9 -y
+conda activate ncvpreg
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
+
+---
+
+## Download
+
+All files (weights, data, results) are available on the cloud drive: **[TODO: add link]**
+
+---
+
+## Files
+
+| File | Description |
+|---|---|
+| `train.py` | Training script |
+| `test.py` | Evaluation script |
+| `model.py` | NCVPReg network |
+| `util.py` | Loss functions |
+| `dataset.py` | Data loader |
+
+
+
+---
+
+## Test
+
+```bash
+python test.py
+```
+
+Loads `last_model.best.t7`, evaluates `test_b_1024.npz`.
+
+
+
+For custom or additional data, please contact: **lujzhang@163.com**
 
 <p align="center">
   <img src="image/Network_v3.png" width="500" alt="The Overall Architecture of NCVP-Reg">
