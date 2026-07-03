@@ -14,7 +14,9 @@ pip install -r requirements.txt
 
 ## Download
 
-All files (weights, data, results) are available on the cloud drive: **[TODO: add link]**
+All files (weights, data, results) are available on the cloud drive: 
+通过网盘分享的文件：NCVPReg
+链接: https://pan.baidu.com/s/11vLwcYmIQJSb8l-vcdIT7Q?pwd=1z8f 提取码: 1z8f
 
 ---
 
